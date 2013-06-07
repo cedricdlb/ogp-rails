@@ -1,27 +1,16 @@
 source 'https://rubygems.org'
 source 'http://sulair-rails-dev.stanford.edu'
 
-gem 'rails', '3.2.5'
+gem 'rails', '~> 3.2.13'
 
 # Bundle edge Rails instead:
 # gem 'rails', :git => 'git://github.com/rails/rails.git'
 
 gem 'sqlite3'
 
-gem 'thin'
-
 gem 'json'
 gem 'devise'
 
-gem 'nokogiri'
-
-gem 'rsolr'
-
-gem 'rgeoserver' # Ruby client for GeoServer RESTFul API
-
-gem 'rubyzip'
-
-gem 'googl' # URL shortener
 
 # Gems used only for assets and not required
 # in production environments by default.
@@ -36,17 +25,6 @@ group :assets do
 end
 
 
-group :development, :test do
-  gem 'rspec-rails'
-  gem 'simplecov'
-  gem 'simplecov-rcov'
-  gem 'capybara'
-  gem 'yard'
-  gem 'redcarpet'
-  gem 'launchy'
-  gem 'jettywrapper'
-  gem 'equivalent-xml'
-end
 
 #gem 'jquery-rails'
 
