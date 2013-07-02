@@ -1,5 +1,5 @@
 source 'https://rubygems.org'
-source 'http://sulair-rails-dev.stanford.edu'
+#source 'http://sulair-rails-dev.stanford.edu'
 
 gem 'rails', '~> 3.2.13'
 
@@ -11,6 +11,7 @@ gem 'sqlite3'
 gem 'json'
 gem 'devise'
 
+gem 'i18n', '~> 0.6.1'
 
 # Gems used only for assets and not required
 # in production environments by default.
@@ -20,9 +21,12 @@ group :assets do
   gem "compass-rails", "~> 1.0.0"
   gem "compass-susy-plugin", "~> 0.9.0"
   gem 'coffee-rails', '~> 3.2.1'
-  gem 'therubyracer'
+#  gem 'therubyracer'
+#  gem 'therubyracer-0.11.0beta1-x86-mingw32' # Manually installed gem from the directory /c/Cedric/Computers/Applications/therubyracer...
   gem 'uglifier', '>= 1.0.3'
 end
+
+gem 'rgeoserver'
 
 
 
